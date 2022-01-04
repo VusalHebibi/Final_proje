@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset css -->
+    <link rel="stylesheet" href="../reset/reset.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    <!-- vusal css -->
+    <link rel="stylesheet" href="../reset/vusal.css">
+    <!-- basic scc -->
+    <link rel="stylesheet" href="../css/jirono.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Blog Jirono</title>
+</head>
+
+<body>
+
+    <div id="first-loader">
+        <div class="loader">
+            <div class="shadow"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <!-- Header start -->
+    <header id="header" class="common_nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav id="nav-main-jirono" class="d-flex align-items-center justify-content-between">
+                        <div class="nav_section_left d-flex align-items-center">
+                            <a class="nav_logo" href="#">
+                                <img src="../img/logo-blue.png" alt="jirono-logo-image">
+                            </a>
+
+                            <ul class="nav_menu d-flex align-items-center">
+                                <li class="nav_list"><a class="nav_link" href="home_jirono.html">Home</a></li>
+
+                                <li class="nav_list">
+                                    <a class="nav_link" href="#">
+                                        Discover
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <ul class="nav_small_menu">
+                                        <li class="nav_small_list"><a class="nav_small_link"
+                                                href="#section-3">Features</a></li>
+                                        <li class="nav_small_list"><a class="nav_small_link" href="#section-6">Our
+                                                Team</a></li>
+                                        <li class="nav_small_list"><a class="nav_small_link" href="#section-7">Pricing
+                                                Plans</a>
+                                        </li>
+                                        <li class="nav_small_list"><a class="nav_small_link" href="#section-9">Latests
+                                                Blogs</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav_list">
+                                    <a class="nav_link" href="#">
+                                        Pages
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+
+                                    <ul class="nav_small_menu">
+                                        <li class="nav_small_list"><a class="nav_small_link"
+                                                href="aboutUs_jirono.html">About Us</a></li>
+                                        <li class="nav_small_list"><a class="nav_small_link"
+                                                href="features_jirono.html">Features</a></li>
+                                        <li class="nav_small_list"><a class="nav_small_link"
+                                                href="FAQ_jirono.html">FAQ's</a></li>
+                                        <li class="nav_small_list"><a class="nav_small_link" href="#">Blog</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav_list"><a class="nav_link" href="contact_jirono.html">Contact</a></li>
+                            </ul>
+                        </div>
+
+
+                        <ul class="nav_sign_in_up d-flex ">
+                            <li class="nav_sign_list">
+                                <a class="nav_sign_link-l" href="#">SIGN IN</a>
+                            </li>
+
+                            <li class="nav_sign_list">
+                                <a class="nav_sign_link-r" href="#">SING UP</a>
+                            </li>
+                        </ul>
+
+                        <a class="nav_hamburger_menu" href="#">
+                            <span class="line lineOne hamburger_menu"></span>
+                            <span class="line lineTwo hamburger_menu"></span>
+                            <span class="line lineThree hamburger_menu"></span>
+                        </a>
+
+                        <div class="hamburger_nav_menu">
+                            <div class="nav_section_left d-flex align-items-center">
+
+                                <ul class="nav_menu d-flex align-items-center">
+                                    <li class="nav_list"><a class="nav_link" href="#">Home</a></li>
+
+                                    <li class="nav_list">
+                                        <a class="nav_link" href="#">
+                                            Discover
+                                            <i class="fas fa-chevron-up"></i>
+                                        </a>
+
+                                        <ul class="nav_small_menu">
+                                            <li class="nav_small_list"><a class="nav_small_link"
+                                                    href="#section-3">Features</a></li>
+                                            <li class="nav_small_list"><a class="nav_small_link" href="#section-6">Our
+                                                    Team</a></li>
+                                            <li class="nav_small_list"><a class="nav_small_link"
+                                                    href="#section-7">Pricing
+                                                    Plans</a>
+                                            </li>
+                                            <li class="nav_small_list"><a class="nav_small_link"
+                                                    href="#section-9">Latests
+                                                    Blogs</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav_list">
+                                        <a class="nav_link" href="#">
+                                            Pages
+                                            <i class="fas fa-chevron-up"></i>
+                                        </a>
+
+                                        <ul class="nav_small_menu">
+                                            <li class="nav_small_list"><a class="nav_small_link"
+                                                    href="aboutUs_jirono.html">About Us</a></li>
+                                            <li class="nav_small_list"><a class="nav_small_link"
+                                                    href="features_jirono.html">Features</a></li>
+                                            <li class="nav_small_list"><a class="nav_small_link"
+                                                    href="FAQ_jirono.html">FAQ's</a></li>
+                                            <li class="nav_small_list"><a class="nav_small_link" href="#">Blog</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav_list"><a class="nav_link" href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <main id="main">
+        <section class="section-1_blog section-1_about">
+            <div class="about_cover">
+                <div class="about_page_top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xxl-12 text-center">
+                                <h1>Blog</h1>
+                            </div>
+
+                            <div class="col-xxl-12 text-center">
+                                <a href="#home_jirono.html">Home</a>
+                                <span class="arr">></span>
+                                <span class="us">Blog</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2_blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-8 col-lg-12">
+                        <div class="blog_list">
+                            <div class="row">
+                                <div class="col-xxl-12">
+                                    <div class="blog_post_thumb">
+                                        <div class="blog_image">
+                                            <div class="img"></div>
+
+                                            <div class="date">
+                                                <strong>APR</strong>
+                                                <span>09</span>
+                                            </div>
+                                        </div>
+                                        <ul class="blog_post_meta text-center">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user"></i>
+                                                    by Jirono
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-comment-o"></i>
+                                                    3 Comments
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <h3>
+                                            <a href="#">Jirono Expands the Leadership Team with David Lin,
+                                                Controller</a>
+                                        </h3>
+                                        <div class="text">
+                                            Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed
+                                            eget sem vitae purus tempus dignissim. Quisque euismod nec lacus sit amet
+                                            maximus. Ut convallis sagittis lorem auctor malesuada. Morbi auctor tortor
+                                            eu risus condimentum.
+                                        </div>
+                                        <a class="btn" href="#">Read More</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-6 col-md-12">
+                                    <div class="blog_post_thumb">
+                                        <div class="blog_image">
+                                            <div class="img"></div>
+
+                                            <div class="date">
+                                                <strong>APR</strong>
+                                                <span>09</span>
+                                            </div>
+                                        </div>
+
+                                        <ul class="blog_post_meta text-center">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user"></i>
+                                                    by Jirono
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-comment-o"></i>
+                                                    3 Comments
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <h3>
+                                            <a href="#">Jirono Partners with Velocloud to Deliver Managed SD-WAN</a>
+                                        </h3>
+
+                                        <div class="text">
+                                            Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et
+                                            malesuada fames ac ante ipsum.
+                                        </div>
+
+                                        <a class="btn" href="#">Read More</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xxl-6 col-md-12">
+                                    <div class="blog_post_thumb">
+                                        <div class="blog_image">
+                                            <div class="img"></div>
+
+                                            <div class="date">
+                                                <strong>APR</strong>
+                                                <span>09</span>
+                                            </div>
+                                        </div>
+
+                                        <ul class="blog_post_meta text-center">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user"></i>
+                                                    by Jirono
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-comment-o"></i>
+                                                    3 Comments
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <h3>
+                                            <a href="#">Jirono Partners with Velocloud to Deliver Managed SD-WAN</a>
+                                        </h3>
+
+                                        <div class="text">
+                                            Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et
+                                            malesuada fames ac ante ipsum.
+                                        </div>
+
+                                        <a class="btn" href="#">Read More</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xxl-6 col-md-12">
+                                    <div class="blog_post_thumb">
+                                        <div class="blog_image">
+                                            <div class="img"></div>
+
+                                            <div class="date">
+                                                <strong>APR</strong>
+                                                <span>09</span>
+                                            </div>
+                                        </div>
+
+                                        <ul class="blog_post_meta text-center">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user"></i>
+                                                    by Jirono
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-comment-o"></i>
+                                                    3 Comments
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <h3>
+                                            <a href="#">Jirono Partners with Velocloud to Deliver Managed SD-WAN</a>
+                                        </h3>
+
+                                        <div class="text">
+                                            Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et
+                                            malesuada fames ac ante ipsum.
+                                        </div>
+
+                                        <a class="btn" href="#">Read More</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xxl-6 col-md-12">
+                                    <div class="blog_post_thumb">
+                                        <div class="blog_image">
+                                            <div class="img"></div>
+
+                                            <div class="date">
+                                                <strong>APR</strong>
+                                                <span>09</span>
+                                            </div>
+                                        </div>
+
+                                        <ul class="blog_post_meta text-center">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user"></i>
+                                                    by Jirono
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-comment-o"></i>
+                                                    3 Comments
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <h3>
+                                            <a href="#">Jirono Partners with Velocloud to Deliver Managed SD-WAN</a>
+                                        </h3>
+
+                                        <div class="text">
+                                            Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et
+                                            malesuada fames ac ante ipsum.
+                                        </div>
+
+                                        <a class="btn" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="pagination d-flex justify-content-center align-items-center">
+                            <li class="pagination_item">
+                                <a class="pagination_link" href="#">
+                                    <i class="fas fa-angle-double-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination_item">
+                                <a class="pagination_link" href="#">
+                                    1
+                                </a>
+                            </li>
+
+                            <li class="pagination_item">
+                                <a class="pagination_link" href="#">
+                                    2
+                                </a>
+                            </li>
+
+                            <li class="pagination_item">
+                                <a class="pagination_link" href="#">
+                                    3
+                                </a>
+                            </li>
+
+                            <li class="pagination_item">
+                                <a class="pagination_link" href="#">
+                                    <i class="fas fa-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xxl-4 col-lg-12">
+                        <aside class="right_section">
+                            <div class="sidebar">
+                                <div class="search">
+                                    <div class="src">
+                                        <form action="">
+                                            <input type="search" placeholder="Search...">
+                                            <button type="submit">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <ul class="general_PMS">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-chevron-right"></i>
+                                            Cloud PMS
+                                            <span>23</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-chevron-right"></i>
+                                            Desktop PMS
+                                            <span>12</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-chevron-right"></i>
+                                            Hotel Software
+                                            <span>153</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-chevron-right"></i>
+                                            Social Media
+                                            <span>9</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-chevron-right"></i>
+                                            General
+                                            <span>95</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-chevron-right"></i>
+                                            Marketing
+                                            <span>32</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-chevron-right"></i>
+                                            Mobile Future
+                                            <span>76</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <div class="widget_tags">
+                                    <a href="#">Team</a>
+                                    <a href="#">Hotel</a>
+                                    <a href="#">Android</a>
+                                    <a href="#">App</a>
+                                    <a href="#">Software</a>
+                                    <a href="#">Development</a>
+                                    <a href="#">API</a>
+                                    <a href="#">Store</a>
+                                    <a href="#">Reservation</a>
+                                    <a href="#">Analytics</a>
+                                    <a href="#">Support</a>
+                                    <a href="#">Coding</a>
+                                    <a href="#">Database</a>
+                                </div>
+                                <div class="install">
+                                    <div class="img"></div>
+                                    <div class="hovered">
+                                        <p>You can contact us for purchase, installation and customizations. </p>
+                                        <a class="btn" href="#">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer start -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-5 col-md-12">
+                    <img class="m-bottom30" src="../img/logo-white.png" alt="">
+
+                    <div class="text">
+                        Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros.
+                        Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.
+                    </div>
+                </div>
+
+                <div class="col-xxl-2 col-md-6">
+                    <h5>Helpful Links</h5>
+
+                    <ul class="footer_nav">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i>
+                                About Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i>
+                                Features
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i>
+                                FAQ’s
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i>
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xxl-2 col-md-6">
+                    <h5>Support</h5>
+
+                    <ul class="footer_nav">
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i>
+                                Privacy Policy
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i>
+                                Terms of Use
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i>
+                                Support Center
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chevron-right"></i>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xxl-3 col-md-12">
+                    <h5>Contact Us</h5>
+
+                    <div class="address">
+                        <span>455 West Orchard Street</span>
+                        <span>Kings Mountain, NC 28086</span>
+                        <span>Phone: (272) 211-7370</span>
+                        <span>E-Mail:support@yourbrand.com</span>
+                    </div>
+
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-invision"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-google-plus-square"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-github-square"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xxl-12">
+                    <p class="copyright">© 2019 Jirono. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e2adacae86.js" crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="../jquery/jquery.js"></script>
+    <!-- javascript -->
+    <script src="../js/script.js"></script>
+
+    <!-- plugin -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
